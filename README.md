@@ -1,37 +1,31 @@
 # Finalizando o RocketMovies
 
-# 💻 Sobre o desafio
+RocketMovies API
+RocketMovies é uma API de gerenciamento de usuários e autenticação para um sistema de filmes. Ele utiliza Node.js com o banco de dados SQLite e implementa autenticação com bcrypt, além de controlar erros personalizados.
 
-Wooow, esse Stage veio recheado de conteúdo, hein? 👀
-Bora por a mão na massa e aplicar tudo o que foi apresentado nessa aula, na nossa aplicação **RocketMovies**? ****🚀
+Funcionalidades
+Criação de usuário: Permite a criação de usuários com nome, e-mail e senha.
+Atualização de usuário: Permite a atualização de informações do usuário, incluindo troca de senha.
+Autenticação: Validação de e-mail e senha com hash seguro utilizando bcrypt.
+Gerenciamento de Erros: Tratamento de erros personalizados através de uma classe de erros.
+Tecnologias Utilizadas
+Node.js
+Express
+SQLite
+Bcrypt
+Knex.js
+AppError - Classe personalizada para tratamento de erros.
 
-Principais pontos que devem ser entregues nesse desafio:
+Banco de Dados
 
- **1. Autenticação**
-Permita que um usuário se autentique na aplicação utilizando um e-mail e uma senha.
-Como visto em aula, a autenticação deverá ser feita utilizando JWT.
+O projeto utiliza o SQLite como banco de dados local. As tabelas principais incluem:
 
-**2. Upload de imagens**
-Permita que o usuário consiga alterar a sua imagem de perfil ao clicar no ícone de câmera, localizada no canto inferior direito da foto:
+users: Armazena informações sobre os usuários, incluindo nome, e-mail e senha (hash).
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/84cb32f8-2a5e-4feb-898f-42ab22e0b743/Untitled.png)
+Tratamento de Erros
+O projeto utiliza uma classe AppError para tratamento de erros personalizados, que retorna erros específicos com status HTTP e mensagens adequadas.
 
-**3. Integração front-end e back-end.**
-Por último e não menos importante, vamos rever diversos conteúdos importantes ao fazer a integração do nossa interface (front-end) com a nossa api (back-end).
-Aqui que a mágica acontece! 💜🪄
+Caso tenha dúvidas ou sugestões, entre em contato:
 
-*****Lembrando*: tente se desafiar mas, caso apareça alguma dificuldade, você pode ir no nosso **[fórum](https://app.rocketseat.com.br/h/forum/explorer)** e deixar sua dúvida por lá!
-Boa sorte e boooooora codar! **🚀**
-
-## 📅 Entrega
-
-Esse desafio deve ser entregue a partir da plataforma da Rocketseat. 
-Você pode nos enviar o link do CodePen ou GitHub com o seu código.  💜
-
-Que tal fazer um post no LinkedIn compartilhando o seu aprendizado e os links dos seus projetos? 
-É uma excelente forma de compartilhar o seu conhecimento e, principalmente, ser visto pelos recrutadores... 👀
-
-Obs: Se você se sentir à vontade, pode nos marcar! 
-Vai ser incrível acompanhar a sua evolução! 💜
-
-Feito com 💜 por Rocketseat 👋 Participe da nossa [comunidade aberta](https://discord.gg/Ns86RQyVH8)
+- **LinkedIn**: [Lucas Goes](https://www.linkedin.com/in/lucasgoesss)
+por [Lucas Goes](https://github.com/lucasgoesss)
